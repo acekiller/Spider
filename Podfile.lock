@@ -1,0 +1,16 @@
+PODS:
+  - Ji (2.0.1):
+    - Ji/Ji (= 2.0.1)
+  - Ji/Ji (2.0.1):
+    - Ji/Ji-libxml
+  - Ji/Ji-libxml (2.0.1)
+
+DEPENDENCIES:
+  - Ji (~> 2.0.1)
+
+SPEC CHECKSUMS:
+  Ji: 6bb602a28dd08b804158f64990e6051ed5de0110
+
+PODFILE CHECKSUM: ef1964ac8b5d670e900f6553084dcd1da916ee11
+
+COCOAPODS: 1.0.1

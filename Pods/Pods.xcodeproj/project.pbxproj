@@ -1,0 +1,1041 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0574DE7AFFB0B6EDC12396777E6ABBFD /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = 240E44334B952722C13C77A237C48918 /* list.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A7E04947C68ED672566D27EF1FF2757 /* xmlautomata.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD601EA375CFA1454FA4F3F49B0E412 /* xmlautomata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AEC920CFD508C24C1BC0AB06012ACE7 /* xpointer.h in Headers */ = {isa = PBXBuildFile; fileRef = D85D27CAD15D7B6CDB6853B8C5910FD1 /* xpointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C374D55074BDCE82AC2268407D3E0A1 /* xmlerror.h in Headers */ = {isa = PBXBuildFile; fileRef = 25DA28F890DA48F48265CFE203CCB854 /* xmlerror.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E481FFE8D8683AC6E546A5D8C5EE23B /* xpath.h in Headers */ = {isa = PBXBuildFile; fileRef = 47EBD0AD872991A6A91B0F4CCCA77C60 /* xpath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE037D04D96B8F679A2C744DAD50B3B /* xmlexports.h in Headers */ = {isa = PBXBuildFile; fileRef = 6287D1536A80BAFA24E79EDEBA0E262E /* xmlexports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A04B2C4607F40BDE084B515C20F280B /* xmlwriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 929DB0B763EB28442168433939F0BB1D /* xmlwriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B96358F56DAEA9A430D6443E025EAED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		1CF65BB531CD4BEDCBFFABF1E654D5E9 /* pattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E471A1956690E961E422EA750747147 /* pattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E20868301BD9BE30CBBC9BE6F0FA7E4 /* Pods-SpiderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D44A0BB58F6E6C8DE0843A7672E780B /* Pods-SpiderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FDBD22C51C9EE504E2CC0EFCB7177E3 /* Pods-Spider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11788EA9851822C4C256B7584C9F1616 /* Pods-Spider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27A02276E0DFE472404751FF3C100E28 /* uri.h in Headers */ = {isa = PBXBuildFile; fileRef = 465847D0FE7533B31A9FBAF9A8E689D4 /* uri.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF727E229E73B6D81091761AD5553C5 /* Pods-SpiderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0001E16C5B4158E78419BFB59612B4B7 /* Pods-SpiderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F0F76E8C7B6697C1EF304A78811F31C /* xmlstring.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E03FF6889F8BCBDA8B8267AA0590895 /* xmlstring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		373E9CF1808A2128FA74CA96737444E8 /* Pods-SpiderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BE4F2C8BCCED964006CA038F4C847 /* Pods-SpiderUITests-dummy.m */; };
+		3F91BA7DB96D823EF46277516560C026 /* xmlschemastypes.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C382FF40542AE340CC071F99BDA5FB /* xmlschemastypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47C6648589668BFAA8588E4293201313 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		4F2C443B6D55336B03176E8BEC7BDA78 /* chvalid.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2937AE151DB56B58FC3EE3C8C8DFFD /* chvalid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56DEBECFBDF1C50266C5306FA7B3D188 /* JiNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E30F0F80FA1FEB4A598682A72B799 /* JiNode.swift */; };
+		57A18FAFCBEBEDAD39EF9D9BA963986C /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADE787979B0A615B5D48CC60EDA745A /* tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C35DD310C2577BC422E760F22D486FC /* xmlIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 1868EE32249A47DE87FE1C2CED4FDDB6 /* xmlIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63AE33D3A6B911E1E4C5C4A457A38DF6 /* Pods-Spider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9C2F34FAFF76EF364C25E4A8EBE069 /* Pods-Spider-dummy.m */; };
+		662EA84354C5F7A82862B5E4D4AE979A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		6673614C5C30684B487369E3856C6BAA /* xmlsave.h in Headers */ = {isa = PBXBuildFile; fileRef = 806D66843636115F6825E467C12C28B9 /* xmlsave.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		695A19F45688490BB3BE6F6FA2350A51 /* valid.h in Headers */ = {isa = PBXBuildFile; fileRef = B2681DA69DA183824EEB39265106F42E /* valid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69B5CA647BE7B62A700833E1EDA7514D /* xinclude.h in Headers */ = {isa = PBXBuildFile; fileRef = F314927A5750285CCFA13E6BCE922FB2 /* xinclude.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF5E1F1B17743AE5941E53F7CF7593A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		7621523F834B73D5AC0943473E17A664 /* xmlreader.h in Headers */ = {isa = PBXBuildFile; fileRef = 010E8278E68DFEA7DAA6AC8D792D2B1D /* xmlreader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CDB4762FBB8BC8BC1C4706AB65521E4 /* debugXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D402F054D70F77679F801AD585AD7D /* debugXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D602B77F9E642AB6544FCA234B2BBE6 /* Ji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851C25FE25DAA72DB66F633242DE21E7 /* Ji.swift */; };
+		7DCBC0E8B5BE29080B5C4B5655BD8229 /* xmlmemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 86224A458E67FF95DFAAE6419EB8D701 /* xmlmemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		815496040AEE293FF7765829B5A602F8 /* globals.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE23361506E8C9AFBDA1FC6E57D7E90 /* globals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827CFED0C304D4FDBE940B92342E12E9 /* Ji-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7189F6F7E01F93D2B6857CD0D0861953 /* Ji-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8483F32FD06E773CB07B0C9F8B596F05 /* SAX2.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C696D9439BDA1426703939E77E969F4 /* SAX2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF7C0F87033B685FD1055FB2FBB9866 /* Ji-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E035FF1C78EF0C5F26B54BE683E122A /* Ji-dummy.m */; };
+		9221AA5810BB99556626D00372649C91 /* xmlversion.h in Headers */ = {isa = PBXBuildFile; fileRef = F881B536B78EE852349F3D59270D5397 /* xmlversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9360E3242543B69742F4BB41DC0D69CB /* nanohttp.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE297561DD3224D0EBE77847BDE04A7 /* nanohttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F146CB0119D6088DF3F83B551044FD4 /* encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 03817AEC28037886397F69F6ACCB12C2 /* encoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A507F6FC4C30AC439174F088B8A781F3 /* Pods-SpiderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B53A3046903AC4276BE82D75B76EE45 /* Pods-SpiderTests-dummy.m */; };
+		AA75BA45D8C475C92C5C890E64A757ED /* HTMLtree.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B320B50A86DFDD6B07A2CF0DACAC5A /* HTMLtree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC85BD6F401EA1D3336FD3FA2685F958 /* relaxng.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C92EC904576409B2958A2F4FE23C8CD /* relaxng.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B286483BACB5D2B634F7B13A0E4EB3D8 /* c14n.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FB27F70C1C266E24AF4819F56308A89 /* c14n.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6823C329172A751CEBE7B604DEAA2D4 /* xmlunicode.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A639EDD3389D1E53BA6544E4F28220 /* xmlunicode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA2F2FE188D6F591BB9BF45C3566FD65 /* parserInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = ECEE2CD6B898873795B6782090C764D9 /* parserInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DD7853F4B9CEFAC525B587D1C018D3 /* xmlschemas.h in Headers */ = {isa = PBXBuildFile; fileRef = 554DF2A51ECA28A9E5D2798F063D8266 /* xmlschemas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D593913E659688CBC744E92F51941A36 /* SAX.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0A15A0C9AAA72ED7EB16749234FCC5 /* SAX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67CEC02896C980B1F0BEEA9D64022A0 /* schemasInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = E06260AAC9884B2A8A6CC7D85FA6D7DD /* schemasInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7CF983FA580BC92CA6968461D73D38B /* catalog.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA687A3ACE1B622E1A1B60711D3931D /* catalog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB9152C6992B55C64B282D4A6BC8A4F8 /* dict.h in Headers */ = {isa = PBXBuildFile; fileRef = EF82B8839068690B13496FDBD128C3C5 /* dict.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE5B8EF026F55FB00D9936C63E346109 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = C9180823981A439243E3596C4510012B /* parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E55902BA6E2182FD5D162D4998B834DC /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 7679C95585D4316FE4839E3B4EDB7474 /* hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7BC1E67EF7D8E86DC9E003A857CAF18 /* xpathInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 8472197169B2F7917C370660A16483C9 /* xpathInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC8D7C7F4B1150EE5A76A899623AE575 /* JiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD82F4E5C61BB0A9935964E472A50A51 /* JiHelper.swift */; };
+		F08BEF614B87BF6F764BAD69C9F3DB6F /* HTMLparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F56CE4E066EB12C858B2460B2AB4E3E /* HTMLparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1DE2428803680D56672CB219DA439E0 /* xmlmodule.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F132FF121FE7B785D6543721578F623 /* xmlmodule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F32F789EF279AC50DC040088125E9E47 /* nanoftp.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A341267EA3C4DE1A63554E7EFB145B /* nanoftp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4CEF7AECC3549920763D9D8910919C6 /* xlink.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E5FE0EC2B9506A92EDAE0C9C49D903 /* xlink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F58083B7559293DE9F4BBB001C41AE22 /* entities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C22603FC033D614363DBA087A49927B /* entities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F999F0F0DEC4993A0817D3EC89309A4C /* xmlregexp.h in Headers */ = {isa = PBXBuildFile; fileRef = 046CD952F8071BD63A087A3C01207955 /* xmlregexp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCA458CBEDE9461E504FCD7DAD88DBE3 /* threads.h in Headers */ = {isa = PBXBuildFile; fileRef = D4713A9B4446B8D096584C977F5FEE5C /* threads.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCAC7DA9C9FFC1E180C970768597A89D /* schematron.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F2B5FB82D7184FAB9D5363EDAAA0C7 /* schematron.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		459BA3AF24E4D15FB12575A7D7911662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F1DB440B42642636E376448A196E87;
+			remoteInfo = Ji;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0001E16C5B4158E78419BFB59612B4B7 /* Pods-SpiderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpiderUITests-umbrella.h"; sourceTree = "<group>"; };
+		010E8278E68DFEA7DAA6AC8D792D2B1D /* xmlreader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlreader.h; path = "Ji-libxml/xmlreader.h"; sourceTree = "<group>"; };
+		03817AEC28037886397F69F6ACCB12C2 /* encoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encoding.h; path = "Ji-libxml/encoding.h"; sourceTree = "<group>"; };
+		041A52332909858027A63A10D469F2A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046CD952F8071BD63A087A3C01207955 /* xmlregexp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlregexp.h; path = "Ji-libxml/xmlregexp.h"; sourceTree = "<group>"; };
+		04A2C59805B8A928A3041FD943B06379 /* Pods-SpiderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SpiderUITests.modulemap"; sourceTree = "<group>"; };
+		08A537AEFC3567818B1125FCDD04591A /* Pods-SpiderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SpiderTests.modulemap"; sourceTree = "<group>"; };
+		0AFB41EB6742A8C1ED43E4F6F8517EDC /* Pods-SpiderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpiderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C92EC904576409B2958A2F4FE23C8CD /* relaxng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relaxng.h; path = "Ji-libxml/relaxng.h"; sourceTree = "<group>"; };
+		0D44A0BB58F6E6C8DE0843A7672E780B /* Pods-SpiderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpiderTests-umbrella.h"; sourceTree = "<group>"; };
+		11788EA9851822C4C256B7584C9F1616 /* Pods-Spider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Spider-umbrella.h"; sourceTree = "<group>"; };
+		155E30F0F80FA1FEB4A598682A72B799 /* JiNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiNode.swift; path = Source/JiNode.swift; sourceTree = "<group>"; };
+		1868EE32249A47DE87FE1C2CED4FDDB6 /* xmlIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlIO.h; path = "Ji-libxml/xmlIO.h"; sourceTree = "<group>"; };
+		1ADE787979B0A615B5D48CC60EDA745A /* tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tree.h; path = "Ji-libxml/tree.h"; sourceTree = "<group>"; };
+		1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		1E471A1956690E961E422EA750747147 /* pattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pattern.h; path = "Ji-libxml/pattern.h"; sourceTree = "<group>"; };
+		2072CF10B02C10EA169A6FE32478AC1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2335534CA2D7BE26F044F3431108F5E3 /* Ji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		240E44334B952722C13C77A237C48918 /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list.h; path = "Ji-libxml/list.h"; sourceTree = "<group>"; };
+		25DA28F890DA48F48265CFE203CCB854 /* xmlerror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlerror.h; path = "Ji-libxml/xmlerror.h"; sourceTree = "<group>"; };
+		26D402F054D70F77679F801AD585AD7D /* debugXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = debugXML.h; path = "Ji-libxml/debugXML.h"; sourceTree = "<group>"; };
+		2A0A15A0C9AAA72ED7EB16749234FCC5 /* SAX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAX.h; path = "Ji-libxml/SAX.h"; sourceTree = "<group>"; };
+		2C183CABA12EE33651367C3F25CB91DE /* Pods-SpiderUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpiderUITests-resources.sh"; sourceTree = "<group>"; };
+		34A639EDD3389D1E53BA6544E4F28220 /* xmlunicode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlunicode.h; path = "Ji-libxml/xmlunicode.h"; sourceTree = "<group>"; };
+		3AB9C7A19577EF86EA068FCEFE1C38E6 /* Pods-Spider-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Spider-resources.sh"; sourceTree = "<group>"; };
+		3F6DECDDAB4D59FF738A65BDF4ADC567 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422A95D3F56933DE75484F25191B301E /* Pods-SpiderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpiderTests.release.xcconfig"; sourceTree = "<group>"; };
+		428E6647FBC90FC1DE60DCB4001C6F50 /* Pods-Spider-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Spider-acknowledgements.plist"; sourceTree = "<group>"; };
+		465847D0FE7533B31A9FBAF9A8E689D4 /* uri.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uri.h; path = "Ji-libxml/uri.h"; sourceTree = "<group>"; };
+		475B7AD7E61AB28A7C61E0E283F766C0 /* Pods-Spider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Spider.release.xcconfig"; sourceTree = "<group>"; };
+		47963CCDEEE7D6EF2287084A2603CF7E /* Pods-SpiderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpiderTests-resources.sh"; sourceTree = "<group>"; };
+		47EBD0AD872991A6A91B0F4CCCA77C60 /* xpath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpath.h; path = "Ji-libxml/xpath.h"; sourceTree = "<group>"; };
+		4BE23361506E8C9AFBDA1FC6E57D7E90 /* globals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = globals.h; path = "Ji-libxml/globals.h"; sourceTree = "<group>"; };
+		554DF2A51ECA28A9E5D2798F063D8266 /* xmlschemas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlschemas.h; path = "Ji-libxml/xmlschemas.h"; sourceTree = "<group>"; };
+		56EEBEB0FAFF84F307B39042CF6F83AF /* Pods-SpiderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpiderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BA687A3ACE1B622E1A1B60711D3931D /* catalog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = catalog.h; path = "Ji-libxml/catalog.h"; sourceTree = "<group>"; };
+		5C22603FC033D614363DBA087A49927B /* entities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = entities.h; path = "Ji-libxml/entities.h"; sourceTree = "<group>"; };
+		5C578203441AB27094B1BB80098BF4DE /* Pods-Spider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Spider.debug.xcconfig"; sourceTree = "<group>"; };
+		5F132FF121FE7B785D6543721578F623 /* xmlmodule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlmodule.h; path = "Ji-libxml/xmlmodule.h"; sourceTree = "<group>"; };
+		6287D1536A80BAFA24E79EDEBA0E262E /* xmlexports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlexports.h; path = "Ji-libxml/xmlexports.h"; sourceTree = "<group>"; };
+		6A2C48780EEC0B82AF0B6A31CF8870FA /* Ji.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Ji.modulemap; sourceTree = "<group>"; };
+		6B53A3046903AC4276BE82D75B76EE45 /* Pods-SpiderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpiderTests-dummy.m"; sourceTree = "<group>"; };
+		6C696D9439BDA1426703939E77E969F4 /* SAX2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAX2.h; path = "Ji-libxml/SAX2.h"; sourceTree = "<group>"; };
+		6E035FF1C78EF0C5F26B54BE683E122A /* Ji-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ji-dummy.m"; sourceTree = "<group>"; };
+		7189F6F7E01F93D2B6857CD0D0861953 /* Ji-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ji-umbrella.h"; sourceTree = "<group>"; };
+		7679C95585D4316FE4839E3B4EDB7474 /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = "Ji-libxml/hash.h"; sourceTree = "<group>"; };
+		79C6F7D350795DDBE04EECE9A0EDD785 /* Pods-SpiderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpiderTests-frameworks.sh"; sourceTree = "<group>"; };
+		7B2937AE151DB56B58FC3EE3C8C8DFFD /* chvalid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chvalid.h; path = "Ji-libxml/chvalid.h"; sourceTree = "<group>"; };
+		7E03FF6889F8BCBDA8B8267AA0590895 /* xmlstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlstring.h; path = "Ji-libxml/xmlstring.h"; sourceTree = "<group>"; };
+		7E0BE4F2C8BCCED964006CA038F4C847 /* Pods-SpiderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpiderUITests-dummy.m"; sourceTree = "<group>"; };
+		7FD601EA375CFA1454FA4F3F49B0E412 /* xmlautomata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlautomata.h; path = "Ji-libxml/xmlautomata.h"; sourceTree = "<group>"; };
+		806D66843636115F6825E467C12C28B9 /* xmlsave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlsave.h; path = "Ji-libxml/xmlsave.h"; sourceTree = "<group>"; };
+		8330212B33FC1EB3515D7AE5CC17B39F /* Ji.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ji.xcconfig; sourceTree = "<group>"; };
+		8472197169B2F7917C370660A16483C9 /* xpathInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpathInternals.h; path = "Ji-libxml/xpathInternals.h"; sourceTree = "<group>"; };
+		851C25FE25DAA72DB66F633242DE21E7 /* Ji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ji.swift; path = Source/Ji.swift; sourceTree = "<group>"; };
+		86224A458E67FF95DFAAE6419EB8D701 /* xmlmemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlmemory.h; path = "Ji-libxml/xmlmemory.h"; sourceTree = "<group>"; };
+		8A1A2B93B4823172875B13036DA2F376 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F56CE4E066EB12C858B2460B2AB4E3E /* HTMLparser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLparser.h; path = "Ji-libxml/HTMLparser.h"; sourceTree = "<group>"; };
+		91F2B5FB82D7184FAB9D5363EDAAA0C7 /* schematron.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = schematron.h; path = "Ji-libxml/schematron.h"; sourceTree = "<group>"; };
+		926D7A2C99A1B6650C3DF90C77753C18 /* Pods_SpiderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		929DB0B763EB28442168433939F0BB1D /* xmlwriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlwriter.h; path = "Ji-libxml/xmlwriter.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BE297561DD3224D0EBE77847BDE04A7 /* nanohttp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nanohttp.h; path = "Ji-libxml/nanohttp.h"; sourceTree = "<group>"; };
+		9CA9DB6B41B7B424898144519728154C /* Pods-Spider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Spider.modulemap"; sourceTree = "<group>"; };
+		9FB27F70C1C266E24AF4819F56308A89 /* c14n.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = c14n.h; path = "Ji-libxml/c14n.h"; sourceTree = "<group>"; };
+		A0A341267EA3C4DE1A63554E7EFB145B /* nanoftp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nanoftp.h; path = "Ji-libxml/nanoftp.h"; sourceTree = "<group>"; };
+		A2686DD59269069DDDE141C663D5E24F /* Pods-Spider-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Spider-frameworks.sh"; sourceTree = "<group>"; };
+		AB4E3A8E87129F9016BEF785D60678F4 /* Pods_SpiderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9C2F34FAFF76EF364C25E4A8EBE069 /* Pods-Spider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Spider-dummy.m"; sourceTree = "<group>"; };
+		B2681DA69DA183824EEB39265106F42E /* valid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = valid.h; path = "Ji-libxml/valid.h"; sourceTree = "<group>"; };
+		B2E5FE0EC2B9506A92EDAE0C9C49D903 /* xlink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xlink.h; path = "Ji-libxml/xlink.h"; sourceTree = "<group>"; };
+		B8404B4D898E17C94487BA9C7475C094 /* Pods-SpiderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpiderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8849317CF551F7BF8F0C5FFD47663D1 /* Pods-SpiderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpiderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9180823981A439243E3596C4510012B /* parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parser.h; path = "Ji-libxml/parser.h"; sourceTree = "<group>"; };
+		D1BFCCEA9C2DACB2AD6076F6BC63847F /* Pods-SpiderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpiderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4713A9B4446B8D096584C977F5FEE5C /* threads.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = threads.h; path = "Ji-libxml/threads.h"; sourceTree = "<group>"; };
+		D4CFDD2D7231E7D6D50743A44983E404 /* Pods-SpiderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpiderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D63BFB7A1F996322E79990042DAC4B06 /* Pods-SpiderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpiderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D85D27CAD15D7B6CDB6853B8C5910FD1 /* xpointer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpointer.h; path = "Ji-libxml/xpointer.h"; sourceTree = "<group>"; };
+		D8FC1F22C48455A85CA1A00725C28EAA /* Pods-Spider-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Spider-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E06260AAC9884B2A8A6CC7D85FA6D7DD /* schemasInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = schemasInternals.h; path = "Ji-libxml/schemasInternals.h"; sourceTree = "<group>"; };
+		E0C382FF40542AE340CC071F99BDA5FB /* xmlschemastypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlschemastypes.h; path = "Ji-libxml/xmlschemastypes.h"; sourceTree = "<group>"; };
+		E2E6237879D68AF1C381E4B56FCC8C06 /* Pods-SpiderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpiderUITests-frameworks.sh"; sourceTree = "<group>"; };
+		ECEE2CD6B898873795B6782090C764D9 /* parserInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parserInternals.h; path = "Ji-libxml/parserInternals.h"; sourceTree = "<group>"; };
+		EF82B8839068690B13496FDBD128C3C5 /* dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dict.h; path = "Ji-libxml/dict.h"; sourceTree = "<group>"; };
+		F2340B9566FAA6405CA3F75337859B77 /* Pods_Spider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F314927A5750285CCFA13E6BCE922FB2 /* xinclude.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xinclude.h; path = "Ji-libxml/xinclude.h"; sourceTree = "<group>"; };
+		F34F039218BBB93B1894BAFECB5A7409 /* Ji-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ji-prefix.pch"; sourceTree = "<group>"; };
+		F881B536B78EE852349F3D59270D5397 /* xmlversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlversion.h; path = "Ji-libxml/xmlversion.h"; sourceTree = "<group>"; };
+		F8B320B50A86DFDD6B07A2CF0DACAC5A /* HTMLtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLtree.h; path = "Ji-libxml/HTMLtree.h"; sourceTree = "<group>"; };
+		FD82F4E5C61BB0A9935964E472A50A51 /* JiHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiHelper.swift; path = Source/JiHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06663824F3008DD8B3F04AF0E6C96C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C6648589668BFAA8588E4293201313 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E24C2D36BEAC75E41D54FC15FDD6105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B96358F56DAEA9A430D6443E025EAED /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DBE72A52D9FF0C7BA6252214FE6C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662EA84354C5F7A82862B5E4D4AE979A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB693D41D5DCF92C18538CB14EBC7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF5E1F1B17743AE5941E53F7CF7593A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0597AB82E5381D33095B052253938270 /* Pods-SpiderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6DECDDAB4D59FF738A65BDF4ADC567 /* Info.plist */,
+				08A537AEFC3567818B1125FCDD04591A /* Pods-SpiderTests.modulemap */,
+				0AFB41EB6742A8C1ED43E4F6F8517EDC /* Pods-SpiderTests-acknowledgements.markdown */,
+				B8404B4D898E17C94487BA9C7475C094 /* Pods-SpiderTests-acknowledgements.plist */,
+				6B53A3046903AC4276BE82D75B76EE45 /* Pods-SpiderTests-dummy.m */,
+				79C6F7D350795DDBE04EECE9A0EDD785 /* Pods-SpiderTests-frameworks.sh */,
+				47963CCDEEE7D6EF2287084A2603CF7E /* Pods-SpiderTests-resources.sh */,
+				0D44A0BB58F6E6C8DE0843A7672E780B /* Pods-SpiderTests-umbrella.h */,
+				B8849317CF551F7BF8F0C5FFD47663D1 /* Pods-SpiderTests.debug.xcconfig */,
+				422A95D3F56933DE75484F25191B301E /* Pods-SpiderTests.release.xcconfig */,
+			);
+			name = "Pods-SpiderTests";
+			path = "Target Support Files/Pods-SpiderTests";
+			sourceTree = "<group>";
+		};
+		28C17CEF104526ACA07B6EEE217EC43E /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		28EC4E3D180E5A48CBDB452BE6CBFE00 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9D8E9C503C880E87A38A74959319A0B /* Pods-Spider */,
+				0597AB82E5381D33095B052253938270 /* Pods-SpiderTests */,
+				79AA515B87ACD3C3F0032067D48B11EB /* Pods-SpiderUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28C17CEF104526ACA07B6EEE217EC43E /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50FCA6DF46B52264016842429D536A06 /* Ji */ = {
+			isa = PBXGroup;
+			children = (
+				851C25FE25DAA72DB66F633242DE21E7 /* Ji.swift */,
+				FD82F4E5C61BB0A9935964E472A50A51 /* JiHelper.swift */,
+				155E30F0F80FA1FEB4A598682A72B799 /* JiNode.swift */,
+			);
+			name = Ji;
+			sourceTree = "<group>";
+		};
+		79AA515B87ACD3C3F0032067D48B11EB /* Pods-SpiderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				041A52332909858027A63A10D469F2A2 /* Info.plist */,
+				04A2C59805B8A928A3041FD943B06379 /* Pods-SpiderUITests.modulemap */,
+				D4CFDD2D7231E7D6D50743A44983E404 /* Pods-SpiderUITests-acknowledgements.markdown */,
+				56EEBEB0FAFF84F307B39042CF6F83AF /* Pods-SpiderUITests-acknowledgements.plist */,
+				7E0BE4F2C8BCCED964006CA038F4C847 /* Pods-SpiderUITests-dummy.m */,
+				E2E6237879D68AF1C381E4B56FCC8C06 /* Pods-SpiderUITests-frameworks.sh */,
+				2C183CABA12EE33651367C3F25CB91DE /* Pods-SpiderUITests-resources.sh */,
+				0001E16C5B4158E78419BFB59612B4B7 /* Pods-SpiderUITests-umbrella.h */,
+				D1BFCCEA9C2DACB2AD6076F6BC63847F /* Pods-SpiderUITests.debug.xcconfig */,
+				D63BFB7A1F996322E79990042DAC4B06 /* Pods-SpiderUITests.release.xcconfig */,
+			);
+			name = "Pods-SpiderUITests";
+			path = "Target Support Files/Pods-SpiderUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				7EEC4DFDB9898E51217179C48DFA6ED7 /* Pods */,
+				85BEB5083860BC74893494EB15FC84C4 /* Products */,
+				28EC4E3D180E5A48CBDB452BE6CBFE00 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EEC4DFDB9898E51217179C48DFA6ED7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B094E57444C497562FA22BD761A335F4 /* Ji */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85BEB5083860BC74893494EB15FC84C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2335534CA2D7BE26F044F3431108F5E3 /* Ji.framework */,
+				F2340B9566FAA6405CA3F75337859B77 /* Pods_Spider.framework */,
+				926D7A2C99A1B6650C3DF90C77753C18 /* Pods_SpiderTests.framework */,
+				AB4E3A8E87129F9016BEF785D60678F4 /* Pods_SpiderUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B094E57444C497562FA22BD761A335F4 /* Ji */ = {
+			isa = PBXGroup;
+			children = (
+				50FCA6DF46B52264016842429D536A06 /* Ji */,
+				F80D61FD3EE54671E91E8486682BC499 /* Ji-libxml */,
+				FC129F873C8046937630858D131339D1 /* Support Files */,
+			);
+			path = Ji;
+			sourceTree = "<group>";
+		};
+		B9D8E9C503C880E87A38A74959319A0B /* Pods-Spider */ = {
+			isa = PBXGroup;
+			children = (
+				2072CF10B02C10EA169A6FE32478AC1A /* Info.plist */,
+				9CA9DB6B41B7B424898144519728154C /* Pods-Spider.modulemap */,
+				D8FC1F22C48455A85CA1A00725C28EAA /* Pods-Spider-acknowledgements.markdown */,
+				428E6647FBC90FC1DE60DCB4001C6F50 /* Pods-Spider-acknowledgements.plist */,
+				AB9C2F34FAFF76EF364C25E4A8EBE069 /* Pods-Spider-dummy.m */,
+				A2686DD59269069DDDE141C663D5E24F /* Pods-Spider-frameworks.sh */,
+				3AB9C7A19577EF86EA068FCEFE1C38E6 /* Pods-Spider-resources.sh */,
+				11788EA9851822C4C256B7584C9F1616 /* Pods-Spider-umbrella.h */,
+				5C578203441AB27094B1BB80098BF4DE /* Pods-Spider.debug.xcconfig */,
+				475B7AD7E61AB28A7C61E0E283F766C0 /* Pods-Spider.release.xcconfig */,
+			);
+			name = "Pods-Spider";
+			path = "Target Support Files/Pods-Spider";
+			sourceTree = "<group>";
+		};
+		F80D61FD3EE54671E91E8486682BC499 /* Ji-libxml */ = {
+			isa = PBXGroup;
+			children = (
+				9FB27F70C1C266E24AF4819F56308A89 /* c14n.h */,
+				5BA687A3ACE1B622E1A1B60711D3931D /* catalog.h */,
+				7B2937AE151DB56B58FC3EE3C8C8DFFD /* chvalid.h */,
+				26D402F054D70F77679F801AD585AD7D /* debugXML.h */,
+				EF82B8839068690B13496FDBD128C3C5 /* dict.h */,
+				03817AEC28037886397F69F6ACCB12C2 /* encoding.h */,
+				5C22603FC033D614363DBA087A49927B /* entities.h */,
+				4BE23361506E8C9AFBDA1FC6E57D7E90 /* globals.h */,
+				7679C95585D4316FE4839E3B4EDB7474 /* hash.h */,
+				8F56CE4E066EB12C858B2460B2AB4E3E /* HTMLparser.h */,
+				F8B320B50A86DFDD6B07A2CF0DACAC5A /* HTMLtree.h */,
+				240E44334B952722C13C77A237C48918 /* list.h */,
+				A0A341267EA3C4DE1A63554E7EFB145B /* nanoftp.h */,
+				9BE297561DD3224D0EBE77847BDE04A7 /* nanohttp.h */,
+				C9180823981A439243E3596C4510012B /* parser.h */,
+				ECEE2CD6B898873795B6782090C764D9 /* parserInternals.h */,
+				1E471A1956690E961E422EA750747147 /* pattern.h */,
+				0C92EC904576409B2958A2F4FE23C8CD /* relaxng.h */,
+				2A0A15A0C9AAA72ED7EB16749234FCC5 /* SAX.h */,
+				6C696D9439BDA1426703939E77E969F4 /* SAX2.h */,
+				E06260AAC9884B2A8A6CC7D85FA6D7DD /* schemasInternals.h */,
+				91F2B5FB82D7184FAB9D5363EDAAA0C7 /* schematron.h */,
+				D4713A9B4446B8D096584C977F5FEE5C /* threads.h */,
+				1ADE787979B0A615B5D48CC60EDA745A /* tree.h */,
+				465847D0FE7533B31A9FBAF9A8E689D4 /* uri.h */,
+				B2681DA69DA183824EEB39265106F42E /* valid.h */,
+				F314927A5750285CCFA13E6BCE922FB2 /* xinclude.h */,
+				B2E5FE0EC2B9506A92EDAE0C9C49D903 /* xlink.h */,
+				7FD601EA375CFA1454FA4F3F49B0E412 /* xmlautomata.h */,
+				25DA28F890DA48F48265CFE203CCB854 /* xmlerror.h */,
+				6287D1536A80BAFA24E79EDEBA0E262E /* xmlexports.h */,
+				1868EE32249A47DE87FE1C2CED4FDDB6 /* xmlIO.h */,
+				86224A458E67FF95DFAAE6419EB8D701 /* xmlmemory.h */,
+				5F132FF121FE7B785D6543721578F623 /* xmlmodule.h */,
+				010E8278E68DFEA7DAA6AC8D792D2B1D /* xmlreader.h */,
+				046CD952F8071BD63A087A3C01207955 /* xmlregexp.h */,
+				806D66843636115F6825E467C12C28B9 /* xmlsave.h */,
+				554DF2A51ECA28A9E5D2798F063D8266 /* xmlschemas.h */,
+				E0C382FF40542AE340CC071F99BDA5FB /* xmlschemastypes.h */,
+				7E03FF6889F8BCBDA8B8267AA0590895 /* xmlstring.h */,
+				34A639EDD3389D1E53BA6544E4F28220 /* xmlunicode.h */,
+				F881B536B78EE852349F3D59270D5397 /* xmlversion.h */,
+				929DB0B763EB28442168433939F0BB1D /* xmlwriter.h */,
+				47EBD0AD872991A6A91B0F4CCCA77C60 /* xpath.h */,
+				8472197169B2F7917C370660A16483C9 /* xpathInternals.h */,
+				D85D27CAD15D7B6CDB6853B8C5910FD1 /* xpointer.h */,
+			);
+			name = "Ji-libxml";
+			sourceTree = "<group>";
+		};
+		FC129F873C8046937630858D131339D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A2B93B4823172875B13036DA2F376 /* Info.plist */,
+				6A2C48780EEC0B82AF0B6A31CF8870FA /* Ji.modulemap */,
+				8330212B33FC1EB3515D7AE5CC17B39F /* Ji.xcconfig */,
+				6E035FF1C78EF0C5F26B54BE683E122A /* Ji-dummy.m */,
+				F34F039218BBB93B1894BAFECB5A7409 /* Ji-prefix.pch */,
+				7189F6F7E01F93D2B6857CD0D0861953 /* Ji-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Ji";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3376DD68677EF0FDF0DA5E9217916815 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B286483BACB5D2B634F7B13A0E4EB3D8 /* c14n.h in Headers */,
+				D7CF983FA580BC92CA6968461D73D38B /* catalog.h in Headers */,
+				4F2C443B6D55336B03176E8BEC7BDA78 /* chvalid.h in Headers */,
+				7CDB4762FBB8BC8BC1C4706AB65521E4 /* debugXML.h in Headers */,
+				DB9152C6992B55C64B282D4A6BC8A4F8 /* dict.h in Headers */,
+				9F146CB0119D6088DF3F83B551044FD4 /* encoding.h in Headers */,
+				F58083B7559293DE9F4BBB001C41AE22 /* entities.h in Headers */,
+				815496040AEE293FF7765829B5A602F8 /* globals.h in Headers */,
+				E55902BA6E2182FD5D162D4998B834DC /* hash.h in Headers */,
+				F08BEF614B87BF6F764BAD69C9F3DB6F /* HTMLparser.h in Headers */,
+				AA75BA45D8C475C92C5C890E64A757ED /* HTMLtree.h in Headers */,
+				827CFED0C304D4FDBE940B92342E12E9 /* Ji-umbrella.h in Headers */,
+				0574DE7AFFB0B6EDC12396777E6ABBFD /* list.h in Headers */,
+				F32F789EF279AC50DC040088125E9E47 /* nanoftp.h in Headers */,
+				9360E3242543B69742F4BB41DC0D69CB /* nanohttp.h in Headers */,
+				DE5B8EF026F55FB00D9936C63E346109 /* parser.h in Headers */,
+				BA2F2FE188D6F591BB9BF45C3566FD65 /* parserInternals.h in Headers */,
+				1CF65BB531CD4BEDCBFFABF1E654D5E9 /* pattern.h in Headers */,
+				AC85BD6F401EA1D3336FD3FA2685F958 /* relaxng.h in Headers */,
+				D593913E659688CBC744E92F51941A36 /* SAX.h in Headers */,
+				8483F32FD06E773CB07B0C9F8B596F05 /* SAX2.h in Headers */,
+				D67CEC02896C980B1F0BEEA9D64022A0 /* schemasInternals.h in Headers */,
+				FCAC7DA9C9FFC1E180C970768597A89D /* schematron.h in Headers */,
+				FCA458CBEDE9461E504FCD7DAD88DBE3 /* threads.h in Headers */,
+				57A18FAFCBEBEDAD39EF9D9BA963986C /* tree.h in Headers */,
+				27A02276E0DFE472404751FF3C100E28 /* uri.h in Headers */,
+				695A19F45688490BB3BE6F6FA2350A51 /* valid.h in Headers */,
+				69B5CA647BE7B62A700833E1EDA7514D /* xinclude.h in Headers */,
+				F4CEF7AECC3549920763D9D8910919C6 /* xlink.h in Headers */,
+				0A7E04947C68ED672566D27EF1FF2757 /* xmlautomata.h in Headers */,
+				0C374D55074BDCE82AC2268407D3E0A1 /* xmlerror.h in Headers */,
+				0EE037D04D96B8F679A2C744DAD50B3B /* xmlexports.h in Headers */,
+				5C35DD310C2577BC422E760F22D486FC /* xmlIO.h in Headers */,
+				7DCBC0E8B5BE29080B5C4B5655BD8229 /* xmlmemory.h in Headers */,
+				F1DE2428803680D56672CB219DA439E0 /* xmlmodule.h in Headers */,
+				7621523F834B73D5AC0943473E17A664 /* xmlreader.h in Headers */,
+				F999F0F0DEC4993A0817D3EC89309A4C /* xmlregexp.h in Headers */,
+				6673614C5C30684B487369E3856C6BAA /* xmlsave.h in Headers */,
+				C8DD7853F4B9CEFAC525B587D1C018D3 /* xmlschemas.h in Headers */,
+				3F91BA7DB96D823EF46277516560C026 /* xmlschemastypes.h in Headers */,
+				2F0F76E8C7B6697C1EF304A78811F31C /* xmlstring.h in Headers */,
+				B6823C329172A751CEBE7B604DEAA2D4 /* xmlunicode.h in Headers */,
+				9221AA5810BB99556626D00372649C91 /* xmlversion.h in Headers */,
+				1A04B2C4607F40BDE084B515C20F280B /* xmlwriter.h in Headers */,
+				0E481FFE8D8683AC6E546A5D8C5EE23B /* xpath.h in Headers */,
+				E7BC1E67EF7D8E86DC9E003A857CAF18 /* xpathInternals.h in Headers */,
+				0AEC920CFD508C24C1BC0AB06012ACE7 /* xpointer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B89428A8616BDE2D5CDE6550AC0B2B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF727E229E73B6D81091761AD5553C5 /* Pods-SpiderUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF0F7F7A73748D1ED74115B0708D39A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDBD22C51C9EE504E2CC0EFCB7177E3 /* Pods-Spider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D388E8C1F5494724141E315C12B0E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E20868301BD9BE30CBBC9BE6F0FA7E4 /* Pods-SpiderTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3846FFC27316262E88A082B863DA91AF /* Pods-SpiderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBAB8D814E99429D8247BB50E37F0C1 /* Build configuration list for PBXNativeTarget "Pods-SpiderTests" */;
+			buildPhases = (
+				E69F1EF63603E6B080C93430579290FB /* Sources */,
+				EAB693D41D5DCF92C18538CB14EBC7CA /* Frameworks */,
+				F1D388E8C1F5494724141E315C12B0E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SpiderTests";
+			productName = "Pods-SpiderTests";
+			productReference = 926D7A2C99A1B6650C3DF90C77753C18 /* Pods_SpiderTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B909FEF803A3854808673D2E84266E2 /* Pods-Spider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC397F40AA72F23A9565C1E854B0329F /* Build configuration list for PBXNativeTarget "Pods-Spider" */;
+			buildPhases = (
+				61BAC8AD128151E58C3908C1BC206AA1 /* Sources */,
+				39DBE72A52D9FF0C7BA6252214FE6C61 /* Frameworks */,
+				AFF0F7F7A73748D1ED74115B0708D39A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB848856D6B33F64C7CCDAC365BEF8AC /* PBXTargetDependency */,
+			);
+			name = "Pods-Spider";
+			productName = "Pods-Spider";
+			productReference = F2340B9566FAA6405CA3F75337859B77 /* Pods_Spider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4F1DB440B42642636E376448A196E87 /* Ji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167628074131DA96D4542E0F385CFDB2 /* Build configuration list for PBXNativeTarget "Ji" */;
+			buildPhases = (
+				51494E45FA68AB11359AC5AAACE1013F /* Sources */,
+				06663824F3008DD8B3F04AF0E6C96C10 /* Frameworks */,
+				3376DD68677EF0FDF0DA5E9217916815 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ji;
+			productName = Ji;
+			productReference = 2335534CA2D7BE26F044F3431108F5E3 /* Ji.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0A8E4ABD831E8C00B4AF08A72879CDA /* Pods-SpiderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C373CD0130F50B87D7C828BF6093DF9 /* Build configuration list for PBXNativeTarget "Pods-SpiderUITests" */;
+			buildPhases = (
+				E53BEE5CC8A00FAC11EB7B603E321FF6 /* Sources */,
+				2E24C2D36BEAC75E41D54FC15FDD6105 /* Frameworks */,
+				9B89428A8616BDE2D5CDE6550AC0B2B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SpiderUITests";
+			productName = "Pods-SpiderUITests";
+			productReference = AB4E3A8E87129F9016BEF785D60678F4 /* Pods_SpiderUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 85BEB5083860BC74893494EB15FC84C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4F1DB440B42642636E376448A196E87 /* Ji */,
+				9B909FEF803A3854808673D2E84266E2 /* Pods-Spider */,
+				3846FFC27316262E88A082B863DA91AF /* Pods-SpiderTests */,
+				E0A8E4ABD831E8C00B4AF08A72879CDA /* Pods-SpiderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51494E45FA68AB11359AC5AAACE1013F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF7C0F87033B685FD1055FB2FBB9866 /* Ji-dummy.m in Sources */,
+				7D602B77F9E642AB6544FCA234B2BBE6 /* Ji.swift in Sources */,
+				EC8D7C7F4B1150EE5A76A899623AE575 /* JiHelper.swift in Sources */,
+				56DEBECFBDF1C50266C5306FA7B3D188 /* JiNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BAC8AD128151E58C3908C1BC206AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AE33D3A6B911E1E4C5C4A457A38DF6 /* Pods-Spider-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53BEE5CC8A00FAC11EB7B603E321FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373E9CF1808A2128FA74CA96737444E8 /* Pods-SpiderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E69F1EF63603E6B080C93430579290FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A507F6FC4C30AC439174F088B8A781F3 /* Pods-SpiderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB848856D6B33F64C7CCDAC365BEF8AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Ji;
+			target = C4F1DB440B42642636E376448A196E87 /* Ji */;
+			targetProxy = 459BA3AF24E4D15FB12575A7D7911662 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0577E960F68FF02722D75DA2D211E3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		24400712755FC212A9B36BC5B65C3D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8330212B33FC1EB3515D7AE5CC17B39F /* Ji.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Ji/Ji-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ji/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Ji/Ji.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Ji;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		314590DF7BB9DDA0FB8BC6C55F688326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1BFCCEA9C2DACB2AD6076F6BC63847F /* Pods-SpiderUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpiderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpiderUITests/Pods-SpiderUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpiderUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52974D55843F660C799FD008440C2F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8849317CF551F7BF8F0C5FFD47663D1 /* Pods-SpiderTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpiderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpiderTests/Pods-SpiderTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpiderTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		578820E498FFD85CA5D93A33D365FBED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ECAD0D2EDEE01369B2E8EAA5A3725C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475B7AD7E61AB28A7C61E0E283F766C0 /* Pods-Spider.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Spider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-Spider/Pods-Spider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Spider;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		805911A54C84B634959A072DB6C83556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422A95D3F56933DE75484F25191B301E /* Pods-SpiderTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpiderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpiderTests/Pods-SpiderTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpiderTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C37AD624217BBCED9B1B67B83825AB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63BFB7A1F996322E79990042DAC4B06 /* Pods-SpiderUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpiderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpiderUITests/Pods-SpiderUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpiderUITests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7016EEAADA19A53CFB0DF1E8EFBA32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C578203441AB27094B1BB80098BF4DE /* Pods-Spider.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Spider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-Spider/Pods-Spider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Spider;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC1BD13C7FD3E9DEFB765A5F38106A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8330212B33FC1EB3515D7AE5CC17B39F /* Ji.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Ji/Ji-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ji/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Ji/Ji.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Ji;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		167628074131DA96D4542E0F385CFDB2 /* Build configuration list for PBXNativeTarget "Ji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1BD13C7FD3E9DEFB765A5F38106A11 /* Debug */,
+				24400712755FC212A9B36BC5B65C3D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0577E960F68FF02722D75DA2D211E3A8 /* Debug */,
+				578820E498FFD85CA5D93A33D365FBED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBAB8D814E99429D8247BB50E37F0C1 /* Build configuration list for PBXNativeTarget "Pods-SpiderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52974D55843F660C799FD008440C2F74 /* Debug */,
+				805911A54C84B634959A072DB6C83556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C373CD0130F50B87D7C828BF6093DF9 /* Build configuration list for PBXNativeTarget "Pods-SpiderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314590DF7BB9DDA0FB8BC6C55F688326 /* Debug */,
+				C37AD624217BBCED9B1B67B83825AB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC397F40AA72F23A9565C1E854B0329F /* Build configuration list for PBXNativeTarget "Pods-Spider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7016EEAADA19A53CFB0DF1E8EFBA32A /* Debug */,
+				7ECAD0D2EDEE01369B2E8EAA5A3725C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
